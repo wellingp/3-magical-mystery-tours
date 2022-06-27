@@ -15,4 +15,4 @@ Vanilla HTML, CSS, and JavaScript.
 
 ### Links
 
-https://github.com/wellingp/3-magical-mystery-tours – automatic! [GitHub](https://github.com/wellingp/3-magical-mystery-tours)
+[On GitHub:](https://github.com/wellingp/3-magical-mystery-tours)
