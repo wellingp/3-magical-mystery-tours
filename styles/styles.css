@@ -5,12 +5,15 @@ body{
    background-color: white;
    background-attachment: fixed;
    background-size: 100%;
-   margin: 0;
+   margin: 0 auto 2% auto;
    font-family: 'Open Sans', sans-serif;
    font-weight: 300;
+   font-size: 1rem;
 }
 
-.container{
+div.container{
+   margin-bottom: 0;
+   padding-bottom: 0;
 }
 
 a{
@@ -24,12 +27,17 @@ a{
    color: black;
 }
 
-nav a{
-   font-family: 'Cherry Swash', cursive;
-   
+nav{
+   padding-top: 1%;
+   padding-bottom: 2%;
 }
 
-a:hover{
+nav a{
+   font-family: 'Cherry Swash', cursive;
+   font-size: 1.2em;
+}
+
+nav a:hover, button a:hover{
    color: white;
 }
 
@@ -40,6 +48,10 @@ i{
 }
 
 p{
+   padding-top: 2%;
+   padding-bottom: 2%;
+   margin-bottom: 0;
+   margin-top: 0;
 
 }
 
@@ -62,7 +74,7 @@ h2{
 h3, th{
    font-family: 'Open Sans', sans-serif;
    font-weight: 300;
-
+   margin-bottom: 0;
 }
 
 h4{
@@ -78,9 +90,9 @@ h6{
 }
 
 img{
-   max-width: 100%;
+   max-width: 80%;
    height: auto;
-
+   padding: 1%;
 }
 
 button{
@@ -88,27 +100,36 @@ button{
    border: none;
    padding: 1% 2% 1% 2%;
    border-radius: 15px;
+   font-size: 1.2em;
 }
 
 button:hover{
    background-color: goldenrod;
+   box-shadow: 0px 2px 10px 2px grey;
 }
 
 header{
+   
 }
 
 div.container{
    padding: 0;
 }
 
-.row{
+div.row{
    display: flex;
    align-items: center;
+   margin-bottom: 0;
+}
+
+div.col{
+   margin: 0;
 }
 
 table{
    display: inline-table;
    width: 80%;
+   background-color: rgb(255, 249, 128);
    background-color: rgba(255, 249, 128, 0.5);
    background-image: url(../images/extra-shot-19.jpg);
    border-radius: 15px;
@@ -125,11 +146,6 @@ th{
    border-top-right-radius: 15px;
 }
 
-
-table, main img, button, p, img, h1, .row{
-   margin: 2% 3% 2% 3%;
-}
-
 video{
    width: 100%;
    height: 50%;
@@ -137,13 +153,8 @@ video{
    margin: 0;
 }
 
-.floating-link{
-   position: absolute;
-   top: 0;
-   left: 10%;
-}
-
 nav{
+   background-color: rgb(255, 249, 128);
    background-color: rgba(255, 249, 128, 0.8);
 }
 
@@ -152,18 +163,23 @@ nav{
 }
 
 main{
-   position: ;
 }
 
-main .container{
+main div.container{
+   background-image: linear-gradient(rgb(255, 249, 128), white, white);
    background-image: linear-gradient(rgba(255, 249, 128, 0.8), white, white);
+   padding-bottom: 2%;
 }
 
 footer{
-   padding: 2%;
+   
 
 }
 
-footer.container{
-   background-color: white;
+footer div.container{
+   margin: 0 auto;
+   padding-top: 2%;
+   padding-bottom: 1%;
+   background-color: rgb(255, 249, 128);
+   background-color: rgba(255, 249, 128, 0.8);
 }
