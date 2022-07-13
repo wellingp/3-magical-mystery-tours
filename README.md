@@ -18,5 +18,8 @@ Vanilla HTML, CSS, and JavaScript.
 On GitHub: https://github.com/wellingp/3-magical-mystery-tours
 
 ### Notes
-- Add something about submarine tours.
-- Make description of what it actually is intentionally vague.
+- Remember to do escape characters.
+- Remember to add image sizes.
+- Remember to do alt text.
+- Remember to do page titles.
+- Remember to add keywords.

@@ -1,29 +1,67 @@
 body{
-   background-image: linear-gradient(rgb(255, 249, 128), white, white);
-
+   text-align: center;
+   align-items: center;
+   background-image: url(../images/wallpaper.png);
+   background-color: white;
+   background-attachment: fixed;
+   background-size: 100%;
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
 }
 
 .container{
-
 }
 
 a{
+   text-decoration: none;
+   color: firebrick;
+   font-family: 'Cherry Swash', cursive;
+   font-weight: bold;
+}
 
+#active-a{
+   color: black;
+}
+
+nav a{
+   font-family: 'Cherry Swash', cursive;
+   
+}
+
+a:hover{
+   color: white;
+}
+
+i{
+   font-family: fontawesome;
+   font-style: normal;
+   font-weight: bold;
 }
 
 p{
 
 }
 
-h1{
+ul{
+   list-style: none;
+}
 
+h1, h2{
+   font-family: 'Cherry Swash', cursive;
+   color: darkgoldenrod;
+}
+
+h1{
 }
 
 h2{
 
 }
 
-h3{
+h3, th{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
 
 }
 
@@ -40,25 +78,92 @@ h6{
 }
 
 img{
+   max-width: 100%;
+   height: auto;
 
 }
 
 button{
+   background-color: yellow;
+   border: none;
+   padding: 1% 2% 1% 2%;
+   border-radius: 15px;
+}
 
+button:hover{
+   background-color: goldenrod;
 }
 
 header{
- 
+}
+
+div.container{
+   padding: 0;
+}
+
+.row{
+   display: flex;
+   align-items: center;
+}
+
+table{
+   display: inline-table;
+   width: 80%;
+   background-color: rgba(255, 249, 128, 0.5);
+   background-image: url(../images/extra-shot-19.jpg);
+   border-radius: 15px;
+}
+
+td{
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+th{
+   background-color: dodgerblue;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+
+
+table, main img, button, p, img, h1, .row{
+   margin: 2% 3% 2% 3%;
+}
+
+video{
+   width: 100%;
+   height: 50%;
+   padding: 0;
+   margin: 0;
+}
+
+.floating-link{
+   position: absolute;
+   top: 0;
+   left: 10%;
 }
 
 nav{
+   background-color: rgba(255, 249, 128, 0.8);
+}
 
+#logo-small{
+   max-width: 80%;
 }
 
 main{
-   background-color: green;
+   position: ;
+}
+
+main .container{
+   background-image: linear-gradient(rgba(255, 249, 128, 0.8), white, white);
 }
 
 footer{
+   padding: 2%;
 
+}
+
+footer.container{
+   background-color: white;
 }

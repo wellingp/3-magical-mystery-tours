@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <script src="https://kit.fontawesome.com/afe1a8b538.js" crossorigin="anonymous"></script>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,23 +10,101 @@
       <title>Magical Mystery Tours</title>
       <link rel="stylesheet" href="styles/styles.css">
       <link rel="stylesheet" href="styles/grid.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
    </head>
    <body>
+
       <header>
-         <div class="container-fluid">
+         <div class="container">
             <nav>
+               <div class="row">
+                  <div class="col">
+                     <img src="reference/magical-mystery-tour-525d2158ad242.png" id="logo-small" alt="Magical Mystery Tours Logo">
+                  </div>
+                  <div class="col-md">
+                     <a href="index.html" id="active-a">Home</a>
+                  </div>
+                  <div class="col-md">
+                     <a href="about.html">The Trip</a>
+                  </div>
+                  <div class="col-md">
+                     <a href="attractions.html">The View</a>
+                  </div>
+                  <div class="col-md">
+                     <a href="festivities.html">The Magic</a>
+                  </div>
+               </div>
+
+               <!--images/Mystery-Tour-Intro.mp4-->
+               
+               <video width="1100" height="" autoplay="autoplay" poster="images/extra-shot-22.jpg" loop>
+                  <source src="" type="video/mp4">
+                  Your browser does not support the video tag.
+               </video>
+               
             </nav>
          </div>
       </header>
+
       <main>
          <div class="container">
-         </div>
+            <div class="row">
+               <div class="col">
+                  <h1>Coming to take you away!</h1>
+
+                  <h2>This is your invitation! Roll up for the Magical Mystery Tour!</h2>
+                  <h3>The only tour with <em>everything</em> you need!</h3>
+
+                  <img src="reference/magical-mystery-tour-525d2158ad242.png" id="logo" alt="Magical Mystery Tours Logo">
+
+                  <table>
+                     <tr>
+                        <th>Make a reservation; Satisfaction is <em>guaranteed</em>!</th>
+                     </tr>
+                     <tr>
+                        <td><img src="reference/MMT-BUS1-transparent.png"  alt=""></td>
+                     </tr>
+                  </table>
+
+                  <p>The Magical Mystery Tour is waiting to take you away!</p>
+
+                  <button type="button"><a href="about.html">Take You Today...</a></button>
+                  <button type="button"><a href="#">Submarine Tours!</a></button>
+               </div><!--COLUMN-->
+            </div><!--ROW-->
+         </div><!--CONTAINER-->
+
       </main>
+
       <footer>
          <div class="container">
-            
+            <div class="row">
+               <div class="col-sm">
+                  <a href="#">
+                     <i class="fa-brands fa-youtube-square"></i>
+                  </a>
+               </div>
+               <div class="col-sm">
+                  <a href="#">
+                     <i class="fa-brands fa-instagram"></i>
+                  </a>
+               </div>
+               <div class="col-sm">
+                  <a href="#">
+                     <i class="fa-brands fa-twitter"></i>
+                  </a>
+               </div>
+               <div class="col-sm">
+                  <a href="#">
+                     <i class="fa-solid fa-envelope"></i>
+                  </a>
+               </div>
+            </div><!--row-->
          </div>
       </footer>
+
       <script src="scripts/scripts.js"></script>
    </body>
 </html>
