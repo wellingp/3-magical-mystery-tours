@@ -19,7 +19,6 @@ div.container{
 a{
    text-decoration: none;
    color: firebrick;
-   font-family: 'Cherry Swash', cursive;
    font-weight: bold;
 }
 
@@ -33,7 +32,6 @@ nav{
 }
 
 nav a{
-   font-family: 'Cherry Swash', cursive;
    font-size: 1.2em;
 }
 
@@ -90,7 +88,7 @@ h6{
 }
 
 img{
-   max-width: 80%;
+   max-width: 50%;
    height: auto;
    padding: 1%;
 }
