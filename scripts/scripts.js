@@ -2,6 +2,7 @@
 // 14-Jul-2022
 // Script to power the image carousels.
 
+//ABOUT CAROUSEL
 let attractionsDiv = document.getElementById('attractions-carousel');
 let attractionsHeading = document.getElementById('attractions-heading');
 let attractionsDescription = document.getElementById('attractions-description');
@@ -11,14 +12,14 @@ let attractionsImage = document.getElementById('attractions-image');
 
 let imagesArray = ['images/extra-shot-25.jpg', 'images/extra-shot-17.jpg', 'images/extra-shot-40.jpg', 'images/extra-shot-26.jpg', 'images/extra-shot-38.jpg', 'images/extra-shot-22.jpg'];
 
-let titleArray = ['Flying', 'Fool\'s Hill', 'Ancient Roman Ruins', 'English Garden', 'Bluejay Way', 'Animals \(Many kinds\)...'];
+let titleArray = ['Flying', 'Fool\'s Hill', 'Ancient Roman Ruins', 'English Garden', 'Bluejay Way', 'Animals \(Four Different Ones\)...'];
 
 let descriptionArray = ['Beyond the blue horizon, far above the clouds, in a land that no one knows. A secret place, where the eyes of man have never set foot...', 
 'See the sun going down and the world spinning round from Fool\'s Hill.', 
 'They really have been there an awful long time. They are, in fact, a little difficult to see because they\'re almost flattened to the ground...', 
 'Sit in an English garden waiting for the sun. If the sun doesn\'t come, you\'ll get a tan from standing in the English rain.', 
 'Please don\'t be long. Please don\'t you be very long. There\'s far too much to do!', 
-'Walrus, rabbits, chickens, hippos, \(and eggmen\).'];
+'Walrus, rabbits, chickens, hippos, etc.'];
 
 let i = 0;
 
@@ -69,6 +70,11 @@ backButton.addEventListener('click', () => {
       attractionsImage.src  = imagesArray[i];
       attractionsHeading.textContent = titleArray [i];
       attractionsDescription.textContent = descriptionArray[i];
+   } else if (i == 0) {
+      attractionsImage.src  = imagesArray[5];
+      attractionsHeading.textContent = titleArray [5];
+      attractionsDescription.textContent = descriptionArray[5];
+      i = 5;
    }
 });
 
