@@ -6,7 +6,7 @@ body{
    background-attachment: fixed;
    background-size: 100%;
    margin: 0 auto 2% auto;
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Nunito', sans-serif;
    font-weight: 300;
    font-size: 1rem;
 }
@@ -14,19 +14,21 @@ body{
 div.container{
    margin-bottom: 0;
    padding-bottom: 0;
+   font-size: 1.2em;
 }
 
 a{
    text-decoration: none;
    color: firebrick;
    font-weight: bold;
+   font-family: 'Nunito', sans-serif;
 }
 
 a:hover{
    color: goldenrod;
 }
 
-#active-a{
+.active-a{
    color: black;
 }
 
@@ -60,6 +62,7 @@ p{
 
 ul{
    list-style: none;
+   margin: 0 auto;
 }
 
 h1, h2{
@@ -75,7 +78,7 @@ h2{
 }
 
 h3, th{
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Nunito', sans-serif;
    font-weight: 300;
    margin-top: 2%;
 }
@@ -97,7 +100,7 @@ hr{
 }
 
 img{
-   max-width: 80%;
+   max-width: 70%;
    height: auto;
    padding: 1%;
 }
@@ -117,10 +120,6 @@ button:hover{
    color: white;
 }
 
-#attractions-description{
-   font-size: 1.2em;
-}
-
 header{
    
 }
@@ -137,6 +136,11 @@ div.row{
    padding-right: 2%;
 }
 
+div.col-lg-8 img{
+   max-width: 98%;
+   background-color: rgba(255, 206, 58, 0.371);
+}
+
 div.col{
    margin: 0;
 }
@@ -146,7 +150,8 @@ table{
    width: 80%;
    background-color: rgb(255, 249, 128);
    background-color: rgba(255, 249, 128, 0.5);
-   background-image: url(../images/extra-shot-19.jpg);
+   background-image: url(../images/main-bus-blur.jpg);
+   background-size: cover;
    border-radius: 15px;
    margin-top: 2%;
    margin-bottom: 2%;
@@ -158,7 +163,8 @@ td{
 }
 
 th{
-   background-color: dodgerblue;
+   background-color: rgb(30, 143, 255);
+   background-color: rgba(30, 143, 255, 0.6);
    border-top-left-radius: 15px;
    border-top-right-radius: 15px;
 }
@@ -177,11 +183,26 @@ nav{
 
 #back-button, #forward-button{
    color: firebrick;
+   display: inline-block;
 }
 
-#staff-box{
+#attractions-carousel img{
+   max-width: 40%;
+}
+
+footer a{
+   font-size: 0.9em;
+   font-weight: 400;
+}
+
+footer i{
+   font-weight: 400;
+   padding: 1%;
+}
+
+div#staff-box{
    background-color: rgba(255, 206, 58, 0.371);
-   max-width: 50%;
+   max-width: 100%;
    margin: 0 auto;
    padding: 2% 1% 2% 1%;
 }

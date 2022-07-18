@@ -10,7 +10,7 @@ let backButton = document.getElementById('back-button');
 let forwardButton = document.getElementById('forward-button');
 let attractionsImage = document.getElementById('attractions-image');
 
-let imagesArray = ['images/extra-shot-25.jpg', 'images/extra-shot-17.jpg', 'images/extra-shot-40.jpg', 'images/extra-shot-26.jpg', 'images/extra-shot-38.jpg', 'images/extra-shot-22.jpg'];
+let imagesArray = ['images/extra-shot-25.jpg', 'images/extra-shot-17.jpg', 'images/extra-shot-40.jpg', 'images/extra-shot-26.jpg', 'images/extra-shot-38.jpg', 'images/extra-shot-22-b.png'];
 
 let titleArray = ['Flying', 'Fool\'s Hill', 'Ancient Roman Ruins', 'English Garden', 'Bluejay Way', 'Animals \(Four Different Ones\)...'];
 

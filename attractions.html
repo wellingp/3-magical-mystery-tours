@@ -7,12 +7,12 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="Magical Mystery Tours Official Website">
       <meta name="author" content="Patti W.">
-      <title>NEW PAGE - Magical Mystery Tours</title>
+      <title>The Right View - Magical Mystery Tours</title>
       <link rel="stylesheet" href="styles/styles.css">
       <link rel="stylesheet" href="styles/grid.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Nunito:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
    </head>
    <body>
 
@@ -30,7 +30,7 @@
                      <a href="about.html">The Trip</a>
                   </div>
                   <div class="col-md">
-                     <a href="attractions.html" id="active-a">The View</a>
+                     <a href="attractions.html" class="active-a">The View</a>
                   </div>
                   <div class="col-md">
                      <a href="festivities.html">The Magic</a>
@@ -47,17 +47,32 @@
                   
                   <h1>The Right View</h1>
 
-                  <p>If you look to your left, ladies and gentlemen, the view is not very inspiring. Ah, but if you look to your right...</p>
-                  
-                  <div id="attractions-carousel">
-                     <h2 id="attractions-heading">Flying</h2>
-                     <button type="button" id="back-button"><i class="fas fa-angle-double-left"></i></button>
+                  <img src="images/extra-shot-45.jpg" alt="">
 
+                  <p>If you look to your left, ladies and gentlemen, the view is not very inspiring. Ah, but if you look to your right...</p>
+
+                  <h2 id="attractions-heading">Flying</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col">
+                  <div id="attractions-carousel">
                      <img src="images/extra-shot-25.jpg" id="attractions-image" alt="">
 
-                     <button type="button" id="forward-button"><i class="fas fa-angle-double-right"></i></button>
                      <p id="attractions-description">Beyond the blue horizon, far above the clouds, in a land that no one knows. A secret place, where the eyes of man have never set foot...</p>
-                  </div>
+
+                     <button type="button" id="back-button"><i class="fas fa-angle-double-left"></i></button>
+                  
+                     <button type="button" id="forward-button"><i class="fas fa-angle-double-right"></i></button>
+
+                  </div><!--Attractions Carousel-->
+
+               </div>
+            </div>
+            <div class="row">
+               <div class="col">
+
+                  <p>Now, what are we <a href="festivities.html">going to do?</a></p>
 
                </div><!--COLUMN-->
             </div><!--ROW-->
@@ -68,22 +83,28 @@
       <footer>
          <div class="container">
             <div class="row">
-               <div class="col-sm">
+               <div class="col-md-2">
+                  <a href="index.html">Home</a>
+               </div>
+               <div class="col-md-2">
+                  <a href="about.html">The Trip</a>
+               </div>
+               <div class="col-md-2">
+                  <a href="attractions.html" class="active-a">The View</a>
+               </div>
+               <div class="col-md-2">
+                  <a href="festivities.html">The Magic</a>
+               </div>
+               <div class="col-md-4">
                   <a href="#">
                      <i class="fa-brands fa-youtube-square"></i>
                   </a>
-               </div>
-               <div class="col-sm">
                   <a href="#">
                      <i class="fa-brands fa-instagram"></i>
                   </a>
-               </div>
-               <div class="col-sm">
                   <a href="#">
                      <i class="fa-brands fa-twitter"></i>
                   </a>
-               </div>
-               <div class="col-sm">
                   <a href="#">
                      <i class="fa-solid fa-envelope"></i>
                   </a>
