@@ -181,13 +181,22 @@ nav{
    background-color: rgba(255, 249, 128, 0.8);
 }
 
+div#attractions-carousel{
+   background-color: rgb(255, 249, 128);
+   background-color: rgba(255, 249, 128, 0.8);
+}
+
 #back-button, #forward-button{
    color: firebrick;
    display: inline-block;
 }
 
 #attractions-carousel img{
-   max-width: 40%;
+   width: 60%;
+}
+
+#attractions-heading{
+   padding-top: 2%;
 }
 
 footer a{
