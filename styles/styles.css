@@ -145,7 +145,9 @@ div.col{
    margin: 0;
 }
 
-table{
+/*INDEX TABLE STYLE*/
+
+#reservation{
    display: inline-table;
    width: 80%;
    background-color: rgb(255, 249, 128);
@@ -157,17 +159,19 @@ table{
    margin-bottom: 2%;
 }
 
-td{
+#reservation td{
    border-bottom-left-radius: 15px;
    border-bottom-right-radius: 15px;
 }
 
-th{
+#reservation th{
    background-color: rgb(30, 143, 255);
    background-color: rgba(30, 143, 255, 0.6);
    border-top-left-radius: 15px;
    border-top-right-radius: 15px;
 }
+
+/*INDEX TABLE STYLE*/
 
 video{
    width: 100%;
@@ -195,9 +199,40 @@ div#attractions-carousel{
    width: 60%;
 }
 
-#attractions-heading{
-   padding-top: 2%;
+#attractions-carousel{
+   padding: 1% 2% 2% 2%;
 }
+
+#reservation-banner{
+   background-color: firebrick;
+   background-color: rgba(178, 34, 34, 0.441);
+   max-width: 98%;
+   margin: 0 auto;
+}
+
+/*CART STYLE*/
+#reservation-cart{
+   text-align: right;
+   background-color: white;
+   display: inline-table;
+   width: 80%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
+#reservation-cart th{
+   background-color: firebrick;
+}
+
+#place-order{
+   background-color: firebrick;
+}
+
+#reservation-cart tfoot{
+   border: solid grey 1px;
+}
+
+/*CART STYLE*/
 
 footer a{
    font-size: 0.9em;

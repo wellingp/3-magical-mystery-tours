@@ -27,7 +27,7 @@
                      <a href="index.html">Home</a>
                   </div>
                   <div class="col-md">
-                     <a href="about.html" class="active-a">The Trip</a>
+                     <a href="about.html">The Trip</a>
                   </div>
                   <div class="col-md">
                      <a href="attractions.html">The View</a>
@@ -42,55 +42,58 @@
 
       <main>
          <div class="container">
-            <div class="row" id="reservation-banner">
+            <div class="row">
                <div class="col-md">
-                  <a href="reservation.html">Make Your Reservation Today!</a>
+                  <h1>Make a Reservation</h1>
                </div>
             </div>
 
             <div class="row">
-               <div class="col-md">
-                  <h1>The Trip of a Lifetime!</h1>
+               <div class="col">
+                  <button id="package1">Package 1 (Single)</button>
+                  <button id="package2">Package 2 (Group of 2)</button>
+                  <button id="package3">Package 3 (Group of 4)</button>
                </div>
             </div>
 
             <div class="row">
-               <div class="col-lg-8">
+               <div class="col">
+                  <h2>Cart</h2>
+                  <table id="reservation-cart">
+                     <thead>
+                        <tr>
+                           <th>Item</th>
+                           <th>Price</th>
+                           <th>Vat 20%</th>
+                        </tr>
+                     </thead>
+                     
+                     <tbody>
+                        <tr>
+                           <td id="item"></td>
+                           <td id="price"></td>
+                           <td id="tax"></td>
+                        </tr>
+                        <tr class="tr-grey">
+                           <td></td>
+                           <td></td>
+                           <td id="discount"></td>
+                        </tr>
+                     </tbody>
+                     
+                     <tfoot>
+                        <tr>
+                           <td></td>
+                           <td></td>
+                           <td id="total" colspan="2"></td>
+                        </tr>
+                     </tfoot>
+                     
 
-                  <img src="images/about-wendy-jimmy.jpg" alt="">
-               </div>
-               <div class="col-lg-4">
-
-                  <div id="staff-box">
-                     <h2>Courier</h2>
-                     <h3>Jolly Jimmy Johnson</h3>
-
-                     <h2>Hostess</h2>
-                     <h3>Lovely, delightful Wendy Winters</h3>
-
-                     <h2>Wonderful Driver</h2>
-                     <h3>Alf</h3>
-                  </div>
+                  </table>
+                  <button id="place-order">Reserve Tickets</button>
                </div>
             </div>
-            <div class="row">
-               <div class="col-md">
-
-                  <p>As the bus leaves the town behind and heads for the country, everything begins to change...</p>
-
-                  <p>And already, the magic is beginning to work...</p>
-
-                  <img src="images/extra-shot-41.jpg" alt="" height="926" width="1232">
-
-               </div><!--COLUMN-->
-            </div><!--ROW-->
-
-            <div class="row">
-               <div class="col-md">
-                  <p>Very comfy in the back. Get your popcorn out!</p>
-                  <p>Fasten your safety belts and <a href="attractions.html">away-way-way we go!</a></p>
-               </div><!--COLUMN-->
-            </div><!--ROW-->
            
          </div><!--CONTAINER-->
 
@@ -103,7 +106,7 @@
                   <a href="index.html">Home</a>
                </div>
                <div class="col-md-2">
-                  <a href="about.html"class="active-a">The Trip</a>
+                  <a href="about.html">The Trip</a>
                </div>
                <div class="col-md-2">
                   <a href="attractions.html">The View</a>
@@ -131,6 +134,6 @@
 
       <p>Copyright &copy; 2022 Patti W.</p>
 
-      <script src="scripts/scripts.js"></script>
+      <script src="scripts/reservation.js"></script>
    </body>
 </html>
