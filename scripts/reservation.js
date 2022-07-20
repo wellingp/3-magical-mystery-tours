@@ -10,7 +10,11 @@ let tax = document.getElementById('tax');
 let total = document.getElementById('total');
 let discount = document.getElementById('discount');
 
-let cartOccupancy = 0;
+let deleteItem = document.getElementById('delete');
+let deleteLink = document.createElement('a');
+let deleteLinkText = document.createTextNode('☒');
+deleteLink.appendChild(deleteLinkText);
+
 
 package1.addEventListener('click', () => {
    item.textContent = 'Package 1 (Single)';
@@ -18,7 +22,9 @@ package1.addEventListener('click', () => {
    tax.textContent = '£13.00';
    discount.textContent = '';
    total.textContent = 'Total: £78.00';
-   cartOccupancy = 1;
+   deleteItem.textContent = '';
+   deleteItem.appendChild(deleteLink);
+   deleteLink.addEventListener('click', reset);
 });
 
 package2.addEventListener('click', () => {
@@ -27,7 +33,9 @@ package2.addEventListener('click', () => {
    tax.textContent = '£26.00';
    discount.textContent = '';
    total.textContent = 'Total: £156.00';
-   cartOccupancy = 1;
+   deleteItem.textContent = '';
+   deleteItem.appendChild(deleteLink);
+   deleteLink.addEventListener('click', reset);
 });
 
 package3.addEventListener('click', () => {
@@ -36,5 +44,16 @@ package3.addEventListener('click', () => {
    tax.textContent = '£52.00';
    discount.textContent = 'Group Discount -£26';
    total.textContent = 'Total: £286.00';
-   cartOccupancy = 1;
+   deleteItem.textContent = '';
+   deleteItem.appendChild(deleteLink);
+   deleteLink.addEventListener('click', reset);
 });
+
+function reset() {
+   item.textContent = 'Select a Package';
+   cost.textContent = '£0.00';
+   tax.textContent = '£0.00';
+   discount.textContent = '';
+   total.textContent = '£0.00';
+   deleteItem.textContent = '---';
+}
