@@ -17,7 +17,7 @@
    <body>
 
       <header>
-         <div class="container">
+         <div class="container" id="top">
             <nav>
                <div class="row">
                   <div class="col">
@@ -44,47 +44,74 @@
          <div class="container">
             <div class="row" id="reservation-banner">
                <div class="col-md">
-                  <a href="reservation.html">Make Your Reservation Today!</a>
+                  <a href="reservation.html"><i class="fa-solid fa-arrow-right"></i> Make Your Reservation Today! <i class="fa-solid fa-arrow-left"></i></a>
                </div>
             </div>
 
             <div class="row">
-               <div class="col"  id="top">
+               <div class="col">
                   <h1>The Magic</h1>
 
                   <img src="images/extra-shot-39.jpg" alt="">
 
                   <p>We are, of course, concerned for your enjoyment (within the limits of British decency...)</p>
 
+                  <ul>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                  </ul>
+
+               </div>
+            </div>
+
+            
+            <div class="row">
+               <div class="col-md">
+                  <button type="button" id="tug-of-war-button">The Great English Tug-of-War</button>
+               </div>
+            </div>
+            <div class="row yellow" id="tug-of-war">
+               <div class="col-md">
+                  <img src="images/extra-shot-27.jpg" alt="">
+                  <p>Roll up to <em>pull</em> up in the Great English Tug of War!</p>
                </div>
             </div>
 
             <div class="row">
                <div class="col-md">
-
-                  <h2>The Great English Tug-of-War</h2>
-                  <img src="images/extra-shot-27.jpg" alt="">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat porta consequat. Aliquam fringilla diam sed massa cursus lobortis!</p>
-
+                  <button type="button" id="marathon-button">Magic Mystery Tour Marathon</button>
                </div>
+            </div>
+            <div class="row yellow" id="marathon">
                <div class="col-md">
-
-                  <h2>Magic Mystery Tour Marathon</h2>
                   <img src="images/extra-shot-21.jpg" alt="">
                   <p>On your marks, get set, go! Caucus race against your fellow Englishmen! Win at all costs!</p>
                </div>
             </div>
-
+            
             <div class="row">
                <div class="col-md">
-
-                  <h2>Dreams about food (beautiful food)</h2>
+                  <button type="button" id="food-button">Dreams about food (beautiful food)</button>
+               </div>
+            </div>
+            <div class="row yellow" id="food">
+               <div class="col-md">
                   <img src="images/extra-shot-28.jpg" alt="">
                   <p>Lettuce... potatoes.... apples... Shovelled to you right at your table in our fabulous dining hall.</p>
                </div>
-               <div class="col-md">
+            </div>
 
-                  <h2>Tent</h2>
+            <div class="row">
+               <div class="col-md">
+                  <button type="button" id="tent-button">Tent</button>
+               </div>
+            </div>
+            <div class="row yellow" id="tent">
+               <div class="col-md">
                   <img src="images/extra-shot-29.jpg" alt="">
                   <p>Everybody in - and up - and quickly, to your seats for comedy and performance.</p>
                </div>
@@ -92,21 +119,31 @@
 
             <div class="row">
                <div class="col-md">
-
-                  <h2>Songs (On the Bus)</h2>
+                  <button type="button" id="songs-button">Songs (On the Bus)</button>
+               </div>
+            </div>
+            <div class="row yellow" id="songs">
+               <div class="col-md">
                   <img src="images/extra-shot-31.jpg" alt="">
                   <p>Dance and sing songs that were hits before your mother was born! Lovely bunches of coconuts! Toot Toot Tootsie, Goodbye! Val-deri, Val-dera! When Irish Eyes Are Smiling!</p>
                </div>
-               <div class="col-md">
+            </div>
 
-                  <h2>Gentlemen's Entertainment</h2>
+            <div class="row">
+               <div class="col-md">
+                  <button type="button" id="gentlemen-button">Gentlemen's Entertainment</button>
+               </div>
+            </div>
+            <div class="row yellow" id="gentlemen">
+               <div class="col-md">
                   <img src="images/extra-shot-34.jpg" alt="">
                   <p>End the evening with a bit of pomp and cabaret.</p>
                </div>
             </div>
+
             <div class="row">
                <div class="col-md">
-                  <p>Convinced? <a href="index.html#reservation">Roll up</a> for the Magical Mystery Tour!</p>
+                  <p>Convinced? Roll up for the Magical Mystery Tour and <a href="reservation.html">Make a Reservation</a>!</p>
 
                   <a href="#top">Back to Top</a>
 
@@ -152,6 +189,6 @@
 
       <p>Copyright &copy; 2022 Patti W.</p>
 
-      <script src="scripts/scripts.js"></script>
+      <script src="scripts/festivities.js"></script>
    </body>
 </html>

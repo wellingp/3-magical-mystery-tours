@@ -136,6 +136,17 @@ div.row{
    padding-right: 2%;
 }
 
+div.row.yellow{
+   background-color: firebrick;
+   background-color: rgba(178, 34, 34, 0.441);
+   margin: 0 auto 2% auto;
+   max-width: 96%;
+}
+
+.hidden{
+   display: none;
+}
+
 div.col-lg-8 img{
    max-width: 98%;
    background-color: rgba(255, 206, 58, 0.371);
@@ -222,6 +233,7 @@ div#attractions-carousel{
 
 #reservation-cart th{
    background-color: firebrick;
+   background-color: rgba(178, 34, 34, 0.9);
 }
 
 #place-order{
@@ -231,7 +243,6 @@ div#attractions-carousel{
 #reservation-cart tfoot{
    border: solid grey 1px;
 }
-
 /*CART STYLE*/
 
 footer a{
