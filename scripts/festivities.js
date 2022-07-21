@@ -5,7 +5,7 @@ let descriptionArray = Array.from(description);
 //Hide all by default
 descriptionArray.forEach((item) => {
    item.style.display = 'none';
-})
+});
 
 //Rows
 let tugOfWar = document.getElementById('tug-of-war');
@@ -15,7 +15,6 @@ let tent = document.getElementById('tent');
 let songs = document.getElementById('songs');
 let gentlemen = document.getElementById('gentlemen'); 
 
-//Toggle each separately
 //Headings (listeners on each)
 let tugOfWarButton = document.getElementById('tug-of-war-button').addEventListener('click', () => {
    if(tugOfWar.style.display == 'none'){
@@ -59,24 +58,3 @@ let gentlemenButton = document.getElementById('gentlemen-button').addEventListen
       gentlemen.style.display = 'none';
    }
 });
-
-/* h2Array.forEach(item => {
-   item.addEventListener('click', toggleClass);
-});
-
-
-
-
-
-
-function toggleClass(){
-   if (div.style.display !== 'none') {
-      div.style.display = 'none';
-  }
-  else {
-   descriptionArray.forEach((item) => {
-      item.style.display = 'block';
-   })
-  }
-}
-    */
