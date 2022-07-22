@@ -17,12 +17,10 @@ Vanilla HTML, CSS, and JavaScript.
 
 On GitHub: https://github.com/wellingp/3-magical-mystery-tours
 
-### Project End Date: DATE
+### Project End Date: 21-07-2022
 
 As of right now, the project is considered complete for the time being, however, it is my intention to come back and add on to the functionality as I learn.
 
 ###Tasks
 
-- [ ] Keywords
-- [ ] Fill in date
 - [ ] Add server functionality to cart.
