@@ -2,7 +2,6 @@
 // 14-Jul-2022
 // Script to power the image carousels.
 
-//ABOUT CAROUSEL
 let attractionsDiv = document.getElementById('attractions-carousel');
 let attractionsHeading = document.getElementById('attractions-heading');
 let attractionsDescription = document.getElementById('attractions-description');
@@ -10,7 +9,7 @@ let backButton = document.getElementById('back-button');
 let forwardButton = document.getElementById('forward-button');
 let attractionsImage = document.getElementById('attractions-image');
 
-let imagesArray = ['images/extra-shot-25.jpg', 'images/extra-shot-17.jpg', 'images/extra-shot-40.jpg', 'images/extra-shot-26.jpg', 'images/extra-shot-38.jpg', 'images/extra-shot-22-b.png'];
+let imagesArray = ['images/extra-shot-18.jpg', 'images/extra-shot-17.jpg', 'images/extra-shot-40.jpg', 'images/extra-shot-26.jpg', 'images/extra-shot-38.jpg', 'images/extra-shot-22-b.png'];
 
 let titleArray = ['Flying', 'Fool\'s Hill', 'Ancient Roman Ruins', 'English Garden', 'Bluejay Way', 'Animals \(Four Different Ones\)...'];
 
@@ -18,7 +17,7 @@ let descriptionArray = ['Beyond the blue horizon, far above the clouds, in a lan
 'See the sun going down and the world spinning round from Fool\'s Hill.', 
 'They really have been there an awful long time. They are, in fact, a little difficult to see because they\'re almost flattened to the ground...', 
 'Sit in an English garden waiting for the sun. If the sun doesn\'t come, you\'ll get a tan from standing in the English rain.', 
-'Please don\'t be long. Please don\'t you be very long. There\'s far too much to do!', 
+'Please don\'t be long. Please don\'t you be very long...', 
 'Walrus, rabbits, chickens, hippos, etc.'];
 
 let i = 0;
@@ -77,9 +76,3 @@ backButton.addEventListener('click', () => {
       i = 5;
    }
 });
-
-
-
-
-
-

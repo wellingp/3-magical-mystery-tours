@@ -34,7 +34,6 @@ a:hover{
 
 nav{
    padding-top: 1%;
-   padding-bottom: 2%;
 }
 
 nav a{
@@ -53,11 +52,10 @@ i{
 }
 
 p{
-   padding-top: 2%;
-   padding-bottom: 2%;
+   padding-top: 1%;
+   padding-bottom: 1%;
    margin-bottom: 1%;
    margin-top: 1%;
-
 }
 
 ul{
@@ -70,29 +68,10 @@ h1, h2{
    color: darkgoldenrod;
 }
 
-h1{
-}
-
-h2{
-
-}
-
 h3, th{
    font-family: 'Nunito', sans-serif;
    font-weight: 300;
    margin-top: 2%;
-}
-
-h4{
-
-}
-
-h5{
-
-}
-
-h6{
-
 }
 
 hr{
@@ -134,10 +113,6 @@ button:hover{
    color: rgb(234, 234, 234);
 }
 
-header{
-   
-}
-
 div.container{
    padding: 0;
 }
@@ -172,7 +147,6 @@ div.col{
 }
 
 /*INDEX TABLE STYLE*/
-
 #reservation{
    display: inline-table;
    width: 80%;
@@ -196,7 +170,6 @@ div.col{
    border-top-left-radius: 15px;
    border-top-right-radius: 15px;
 }
-
 /*INDEX TABLE STYLE*/
 
 video{
@@ -230,14 +203,23 @@ div#attractions-carousel{
 }
 
 #reservation-banner{
-   background-color: firebrick;
+   background-color: rgb(174, 34, 34);
    background-color: rgba(178, 34, 34, 0.441);
    max-width: 98%;
    margin: 0 auto;
 }
 
-#reservation-banner a:hover{
+#reservation-banner a{
    color: white;
+}
+
+#reservation-banner i{
+   font-size: 1em;
+   color: rgb(255, 249, 128);
+}
+
+#reservation-banner a:hover{
+   color: rgb(255, 249, 128);
 }
 
 /*CART STYLE*/
@@ -251,7 +233,7 @@ div#attractions-carousel{
 }
 
 #reservation-cart th{
-   background-color: firebrick;
+   background-color: rgb(174, 34, 34);
    background-color: rgba(178, 34, 34, 0.9);
 }
 
@@ -275,24 +257,17 @@ footer i{
 }
 
 div#staff-box{
+   background-color: rgb(255, 206, 58);
    background-color: rgba(255, 206, 58, 0.371);
    max-width: 100%;
    margin: 0 auto;
    padding: 2% 1% 2% 1%;
 }
 
-main{
-}
-
 main div.container{
    background-image: linear-gradient(rgb(255, 249, 128), white, white);
    background-image: linear-gradient(rgba(255, 249, 128, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
    padding-bottom: 2%;
-}
-
-footer{
-   
-
 }
 
 footer div.container{

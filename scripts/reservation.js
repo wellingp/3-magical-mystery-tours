@@ -15,7 +15,6 @@ let deleteLink = document.createElement('a');
 let deleteLinkText = document.createTextNode('☒');
 deleteLink.appendChild(deleteLinkText);
 
-
 package1.addEventListener('click', () => {
    item.textContent = 'Package 1 (Single)';
    cost.textContent = '£65.00';

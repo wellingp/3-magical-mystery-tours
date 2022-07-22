@@ -1,10 +1,10 @@
 # 3-magical-mystery-tours
 
-## 27-06-2022
+## Project Start Date: 27-06-2022
 
 ### Motivation
 
-**ROLL UP FOR THE MAGICAL MYSTERY TOUR, RIGHT THIS WAY!**
+**ROLL UP FOR THE MAGICAL MYSTERY TOUR, STEP RIGHT THIS WAY!**
 
 The next stop on the Landing Page Odyssey: *Magical Mystery Tours' Official Business Website*, a nod to, undoubtedly, the Beatles' best album.
 
@@ -17,9 +17,12 @@ Vanilla HTML, CSS, and JavaScript.
 
 On GitHub: https://github.com/wellingp/3-magical-mystery-tours
 
-### Notes
-- Remember to do escape characters.
-- Remember to add image sizes.
-- Remember to do alt text.
-- Remember to do page titles.
-- Remember to add keywords.
+### Project End Date: DATE
+
+As of right now, the project is considered complete for the time being, however, it is my intention to come back and add on to the functionality as I learn.
+
+###Tasks
+
+- [ ] Keywords
+- [ ] Fill in date
+- [ ] Add server functionality to cart.
