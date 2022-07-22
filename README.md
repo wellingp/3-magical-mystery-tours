@@ -21,6 +21,6 @@ On GitHub: https://github.com/wellingp/3-magical-mystery-tours
 
 As of right now, the project is considered complete for the time being, however, it is my intention to come back and add on to the functionality as I learn.
 
-###Tasks
+### Tasks
 
 - [ ] Add server functionality to cart.
