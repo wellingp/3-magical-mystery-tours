@@ -246,6 +246,10 @@ div#attractions-carousel{
 }
 /*CART STYLE*/
 
+h1.no-top-pad{
+   margin-top: 0.5%;
+}
+
 footer a{
    font-size: 0.9em;
    font-weight: 400;
