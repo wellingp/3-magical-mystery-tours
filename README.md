@@ -24,3 +24,4 @@ As of right now, the project is considered complete for the time being, however,
 ### Tasks
 
 - [ ] Add server functionality to cart.
+- [ ] Improve mobile view of cart.
